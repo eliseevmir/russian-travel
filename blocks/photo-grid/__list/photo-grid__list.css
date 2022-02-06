@@ -1,0 +1,9 @@
+.photo-grid__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1184px;
+  min-height: 671px;
+  margin: 0 auto;
+  padding: 0;
+}
