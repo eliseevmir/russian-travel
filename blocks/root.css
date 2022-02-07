@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 1280px;
-  height: 6875px;
+  max-width: 1280px;
+  min-height: 6875px;
   margin: 0 auto;
 }

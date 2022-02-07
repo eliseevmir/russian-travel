@@ -1,0 +1,4 @@
+.place__element {
+  grid-area: element;
+  margin: 0 auto;
+}
