@@ -1,4 +1,9 @@
 .cover__link {
+  position: relative;
   text-decoration: none;
   color: #ffffff;
+}
+
+.cover__link:hover {
+  cursor: url(../../../image/Cursor/Imported\ Layers\ Copy\ 4.png), auto;
 }

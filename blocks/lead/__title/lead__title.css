@@ -2,11 +2,32 @@
   margin: 0 auto;
   text-align: center;
   color: #ffffff;
-  width: 720px;
-  height: 200px;
+  max-width: 720px;
   font-family: Inter;
   font-size: 96px;
   font-style: normal;
   font-weight: 900;
   line-height: 1.04;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .lead__title {
+    width: min-content;
+    font-size: 54px;
+  }
+}
+
+@media screen and (min-width: 326px) and (max-width: 424px) {
+  .lead__title {
+    width: min-content;
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
 }

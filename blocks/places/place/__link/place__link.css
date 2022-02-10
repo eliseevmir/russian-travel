@@ -6,3 +6,7 @@
   line-height: 1.22;
   color: #ffffff;
 }
+
+.place__link:hover {
+  cursor: url(../../../../image/Cursor/Imported\ Layers\ Copy\ 4.png), auto;
+}

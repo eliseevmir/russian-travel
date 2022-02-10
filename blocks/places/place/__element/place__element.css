@@ -2,3 +2,9 @@
   grid-area: element;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 425px) {
+  .place__element {
+    margin: 0 16px;
+  }
+}
