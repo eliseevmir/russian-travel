@@ -12,17 +12,17 @@
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .lead__subtitle {
-    width: calc(100% - 14 * 2);
+    width: calc(100% - 22px * 2);
     font-size: 24px;
-    margin: 26px auto 0;
+    margin-top: 26px;
   }
 }
 
 @media screen and (min-width: 326px) and (max-width: 424px) {
   .lead__subtitle {
-    width: calc(100% - 10 * 2);
+    width: calc(100% - 16px * 2);
     font-size: 18px;
-    margin: 20px auto 0;
+    margin-top: 20px;
   }
 }
 
