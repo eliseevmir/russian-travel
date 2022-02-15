@@ -4,12 +4,16 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 1280px;
+  /* width: 100vw; */
   min-height: 6875px;
   margin: 0 auto;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  /* overflow: hidden; */
 }
